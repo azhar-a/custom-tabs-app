@@ -1,0 +1,22 @@
+ion-grid{
+    padding: 0;
+
+    ion-row{
+        background-color: var(--ion-color-light);
+
+        ion-col{
+            padding: 0;
+            display: flex;
+            justify-content: center;
+
+            ion-button{
+                height: 56px;
+
+                ion-icon{
+                    height: 24px;
+                    width: 24px;
+                }
+            }
+        }
+    }
+}

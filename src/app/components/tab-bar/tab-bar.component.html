@@ -1,0 +1,10 @@
+<ion-grid>
+  <ion-row>
+    <ion-col size="4" *ngFor="let tab of tabs">
+      <ion-button fill="clear" [color]="_sphs.activeTabID == tab.id ? 'primary' : 'dark'"
+        (click)="tabChange(tab.id)">
+        <ion-icon [name]="tab.icon + '-outline'"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
