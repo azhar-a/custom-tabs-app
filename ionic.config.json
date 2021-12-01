@@ -1,0 +1,7 @@
+{
+  "name": "custom tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
